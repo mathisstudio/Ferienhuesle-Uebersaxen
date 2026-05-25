@@ -9,7 +9,7 @@ const InfoSection = () => {
     <section className="section info-section dark-section">
       <div className="container info-grid">
         <div className="info-text">
-          <h2 className="text-serif info-title">{t('infoTitle')}</h2>
+          <h2 className="text-serif section-title info-title">{t('infoTitle')}</h2>
           <p className="text-sans">
             {t('infoText')}
           </p>

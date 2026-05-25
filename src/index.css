@@ -17,6 +17,11 @@
   --transition-smooth: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -59,19 +64,41 @@ a {
   padding: var(--spacing-xl) 0;
 }
 
-/* Typography Utility */
+/* Typography Utility - Mobile First & iOS Safe */
 .text-serif { font-family: var(--font-serif); }
 .text-sans { font-family: var(--font-sans); }
 .text-accent { color: var(--color-accent); }
+
 .text-huge {
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: 2.2rem;
   letter-spacing: -0.02em;
 }
 .text-xl {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 1.5rem;
 }
 .text-lg {
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-size: 1.1rem;
+}
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .text-huge {
+    font-size: clamp(3rem, 8vw, 8rem);
+  }
+  .text-xl {
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+  .text-lg {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+  }
+  .section-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: var(--spacing-md);
+  }
 }
 
 /* Button */

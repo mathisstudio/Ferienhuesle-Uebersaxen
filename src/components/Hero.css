@@ -50,23 +50,36 @@
 }
 
 .hero-title {
-  font-size: clamp(4rem, 10vw, 8rem);
+  font-size: 2.5rem;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   animation: fadeUp 1s ease-out forwards;
   opacity: 0;
   transform: translateY(30px);
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
-  letter-spacing: 0.2em;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   animation: fadeUp 1s ease-out 0.3s forwards;
   opacity: 0;
   transform: translateY(30px);
 }
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: clamp(3rem, 8vw, 8rem);
+    margin-bottom: 1rem;
+  }
+  .hero-subtitle {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    letter-spacing: 0.15em;
+    margin-bottom: 3rem;
+  }
+}
+
 
 .hero-btn {
   animation: fadeUp 1s ease-out 0.6s forwards;
