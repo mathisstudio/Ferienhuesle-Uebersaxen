@@ -1,0 +1,109 @@
+.location-section {
+  padding: var(--spacing-xl) 0;
+  background-color: var(--color-bg-secondary);
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+  align-items: center; /* Center vertically with map */
+  margin-bottom: var(--spacing-xl);
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: var(--spacing-md);
+}
+
+.location-info .section-title {
+  margin-bottom: var(--spacing-md);
+}
+
+.address-block, .arrival-block {
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.arrival-block:last-child {
+  border-bottom: none;
+}
+
+.address-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.address-text {
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.arrival-block h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.text-muted {
+  color: #a0a0a0;
+  line-height: 1.8;
+}
+
+.location-map {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.booking-cta-container {
+  margin-top: var(--spacing-xl);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--spacing-xl);
+}
+
+.booking-cta-block {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.booking-cta-block h3 {
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  font-size: 1.1rem;
+  padding: 1.2rem 3rem;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.cta-btn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-bg-secondary);
+}
+
+@media (max-width: 900px) {
+  .location-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .location-info {
+    padding-right: 0;
+  }
+  
+  .location-map {
+    min-height: 400px;
+  }
+}

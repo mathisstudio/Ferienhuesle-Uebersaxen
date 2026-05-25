@@ -1,0 +1,25 @@
+.webcam-section {
+  background-color: var(--color-bg-primary);
+}
+
+.webcam-section .section-title {
+  color: var(--color-bg-secondary);
+  text-align: center;
+}
+
+.webcam-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.webcam-placeholder {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.calendar-section {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+}
+
+.calendar-section .section-title {
+  color: var(--color-accent);
+}
+
+.calendar-container {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 400px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.calendar-container iframe {
+  filter: invert(0.9) hue-rotate(180deg) brightness(0.8);
+}
+
+.calendar-placeholder {
+  text-align: center;
+}
