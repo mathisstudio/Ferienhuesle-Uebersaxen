@@ -17,7 +17,7 @@ const InfoSection = () => {
         
         <div className="info-stats">
           <div className="stat-item">
-            <span className="text-serif stat-number">8</span>
+            <span className="text-serif stat-number">7</span>
             <span className="text-sans stat-label">{t('statPersons')}</span>
           </div>
           <div className="stat-item">
