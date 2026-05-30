@@ -49,7 +49,7 @@ const Location = () => {
           <p className="text-sans text-muted" style={{ marginBottom: '2rem', fontSize: '1.2rem' }}>
             {t('bookingText')}
           </p>
-          <a href="mailto:uebersaxen21@gmail.com?subject=Buchungsanfrage Hütte Übersaxen" className="btn btn-light cta-btn">
+          <a href="mailto:uebersaxen21@gmail.com?subject=Buchungsanfrage Ferienhüsle Übersaxen" className="btn btn-light cta-btn">
             {t('bookingBtn')}
           </a>
         </div>

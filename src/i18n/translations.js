@@ -6,7 +6,7 @@ export const translations = {
     heroBtn: "Entdecken",
     
     infoTitle: "Ein Ort der Ruhe",
-    infoText: "Willkommen in der Hütte Übersaxen. Erlebe unvergessliche Tage inmitten der Vorarlberger Natur. Unsere Hütte besticht durch ihren echten alpinen Charme und gemütlichen Retro-Stil. Ein authentischer Ort zum Wohlfühlen – ideal für Familien, Paare oder kleine Gruppen, die dem Alltag entfliehen möchten.",
+    infoText: "Willkommen im Ferienhüsle Übersaxen. Erlebe unvergessliche Tage inmitten der Vorarlberger Natur. Unsere Hütte besticht durch ihren echten alpinen Charme und gemütlichen Retro-Stil. Ein authentischer Ort zum Wohlfühlen – ideal für Familien, Paare oder kleine Gruppen, die dem Alltag entfliehen möchten.",
     statPersons: "Personen",
     statBedrooms: "Schlafzimmer",
     statSofa: "Schlafcouch",

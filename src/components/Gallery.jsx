@@ -39,7 +39,7 @@ const Gallery = () => {
               className="masonry-item"
               onClick={() => setSelectedImage(`/images/${img}`)}
             >
-              <img src={`/images/${img}`} alt={`Hütte Übersaxen ${index + 1}`} loading="lazy" />
+              <img src={`/images/${img}`} alt={`Ferienhüsle Übersaxen ${index + 1}`} loading="lazy" />
             </div>
           ))}
         </div>
