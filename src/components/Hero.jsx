@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content container">
         <h1 className="hero-title text-serif">
-          {t('heroTitle1')}<br />
+          <span className="hero-title-small">{t('heroTitle1')}</span><br />
           {t('heroTitle2')}
         </h1>
         <p className="hero-subtitle text-sans">{t('heroSubtitle')}</p>

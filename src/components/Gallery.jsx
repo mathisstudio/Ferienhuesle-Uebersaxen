@@ -16,7 +16,12 @@ const images = [
   'Threema_2026-01-02_12-05-07.jpeg',
   'Threema_2026-01-02_12-05-11.jpeg',
   'Threema_2026-01-03_12-56-28.jpeg',
-  'Threema_2026-01-03_12-56-31.jpeg'
+  'Threema_2026-01-03_12-56-31.jpeg',
+  'uebersaxen_05.jpg',
+  'uebersaxen_17.jpg',
+  'uebersaxen_66.jpg',
+  'uebersaxen_91.jpg',
+  'uebersaxen_93.jpg'
 ];
 
 const Gallery = () => {

@@ -46,16 +46,20 @@
   z-index: 3;
   text-align: center;
   color: var(--color-text-secondary);
-  margin-top: -15vh;
+  margin-top: -25vh;
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-style: italic;
   margin-bottom: 0.5rem;
   animation: fadeUp 1s ease-out forwards;
   opacity: 0;
   transform: translateY(30px);
+}
+
+.hero-title-small {
+  font-size: 0.65em;
 }
 
 .hero-subtitle {
@@ -70,7 +74,7 @@
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: clamp(3rem, 8vw, 8rem);
+    font-size: clamp(3.5rem, 10vw, 9rem);
     margin-bottom: 1rem;
   }
   .hero-subtitle {

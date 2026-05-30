@@ -1,6 +1,6 @@
 export const translations = {
   de: {
-    heroTitle1: "Hütte",
+    heroTitle1: "Ferienhüsle",
     heroTitle2: "Übersaxen",
     heroSubtitle: "Ein gemütlicher Rückzugsort in der Natur",
     heroBtn: "Entdecken",
@@ -22,7 +22,7 @@ export const translations = {
     webcamHint: "(Hier wird die Webcam eingebunden)",
     
     locationTitle: "Lage & Kontakt",
-    addressTitle: "Hütte Übersaxen",
+    addressTitle: "Ferienhüsle Übersaxen",
     addressLine1: "Gulmweg 21",
     addressLine2: "6834 Übersaxen",
     addressLine3: "Österreich",

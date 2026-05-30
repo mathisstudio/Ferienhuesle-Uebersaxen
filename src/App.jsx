@@ -18,7 +18,7 @@ function App() {
         <InfoSection />
         <Gallery />
         <Calendar />
-        <Webcam />
+        {/* <Webcam /> - Vorübergehend ausgeblendet */}
         <Location />
       </div>
     </LanguageProvider>
