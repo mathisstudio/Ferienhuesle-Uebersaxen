@@ -19,8 +19,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: 1;
-  /* subtle zoom effect on load */
-  animation: zoomBg 20s infinite alternate linear;
 }
 
 @keyframes zoomBg {
@@ -38,7 +36,7 @@
     to bottom,
     rgba(0,0,0,0.3) 0%,
     rgba(0,0,0,0.5) 75%,
-    var(--color-bg-primary) 100%
+    var(--color-bg-secondary) 100%
   );
   z-index: 2;
 }
