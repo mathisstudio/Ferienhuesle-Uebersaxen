@@ -10,7 +10,7 @@
 
 - **Speicherort**: Das Projekt wurde nach `~/Projects/ferienhuesle-uebersaxen` verschoben (früher Desktop).
 - **Vercel-Verbindung repariert**: Vercel-Projekt wurde im Dashboard erfolgreich via "Connect Git" mit dem GitHub-Repo `mathisstudio/Ferienhuesle-Uebersaxen` verbunden. Deployments laufen nun automatisch.
-- **Hero-Bereich**: Parallax-Effekt (`background-attachment: fixed`) für das Titelbild eingebaut und den dunklen Fade-Out (Gradient) nahtlos in die Info-Sektion integriert.
+- **Hero-Bereich**: Parallax-Effekt (`background-attachment: fixed`) für Desktop eingebaut. Für mobile Geräte (Touch) wurde der Parallax-Effekt deaktiviert und stattdessen ein eleganter "Ken Burns" Zoom-Effekt per CSS-Animation hinzugefügt.
 - **Kalender**: Google Kalender-Verbindung überprüft; Sichtbarkeitsprobleme behoben (Kalender-Freigabe und Termin-Status auf "Beschäftigt").
 
 ## Offene Punkte / Nächste Schritte
